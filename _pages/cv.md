@@ -11,36 +11,44 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science with Honors, Gonzaga University, 2016
+* Ph.D in Computer Science, University of Southern California, 2022 (expected)
 
-Work experience
+Research Interests 
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
+* Computer Science
+  * Natural Language Processing
+  * f
   * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Work experience
+======
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Dr. Andrew Goodney
+  
+Skills
+======
+* Programming
+  * Python
+    * Data Science libraries: sklearn, pandas, numpy, matplotlib, gensim
+    * Deep learning libraries: tensorflow, keras
+    * NLP: nltk, 
+  * R
+    * ggplot2
+    * That's it
+* Latex
+* Project management with Git
+* Multitasking projects
+* Are these all my relevant skills? Probably not, lol
+* I'm an good writer
   
 Talks
 ======
@@ -56,4 +64,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* I review articles for journals (for free)
