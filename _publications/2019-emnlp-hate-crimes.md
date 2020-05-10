@@ -3,7 +3,8 @@ title: "Reporting the Unreported: Event Extraction for Analyzing the Local Repre
 collection: publications
 permalink: /publication/2019-emnlp-hate-crimes
 excerpt: 'Event extraction is applied to news articles in order to approximate county-level rates of hate crime, given inconsistent FBI reporting of same.'
-date: 2019
+year: 2019
+month: nov
 venue: 'Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)'
 author: 'Mostafazadeh Davani, Aida  and
       Yeh, Leigh  and
