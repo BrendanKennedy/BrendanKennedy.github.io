@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+Hello world.
+
 I am a computer science PhD student at the University of Southern California in the [https://dornsife.usc.edu/labs/cssl/](Computational Social Science Lab (CSSL)). I have the privilege of learning from my advisor, Dr. Morteza Dehghani, and my friends and collaborators in the lab. My research interests are spread across at least two fields (computer science and psychology), but they grow more together as time passes. My unifying interest is in language, originating in my passion for analytic philosophy, computational linguistics, literature, history, and writing in my undergraduate years at Gonzaga University. Currently my research focuses on text analysis, principally by improving methodology, generating insight as to the psychological aspects of language, and helping to generate insight into other psychological phenomena which are accessible _through_ language. 
 
 #### Interests
