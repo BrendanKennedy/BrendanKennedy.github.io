@@ -267,6 +267,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll_orcid
   - jekyll-scholar
+plugins: ['jekyll/scholar']
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
