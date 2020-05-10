@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding: utf-8
 
 # # Publications markdown generator for academicpages
@@ -17,7 +17,7 @@
 
 
 from pybtex.database.input import bibtex
-import pybtex.database.input.bibtex 
+#import pybtex.database.input.bibtex 
 from time import strptime
 import string
 import html
@@ -29,7 +29,7 @@ publist = {
     "proceeding": {
         "file" : "proceedings.bib",
         "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
+        "venue-pretext": "Proceedings of ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
@@ -68,8 +68,8 @@ for pubsource in publist:
         b = bibdata.entries[bib_id].fields
         
         try:
-            pub_year = f'{b["year"]}'
-
+            #pub_year = f'{b["year"]}'
+            pub_year = b["year"]
             #todo: this hack for month and day needs some cleanup
             if "month" in b.keys(): 
                 if(len(b["month"])<3):
@@ -153,8 +153,8 @@ for pubsource in publist:
 
             with open("../_publications/" + md_filename, 'w') as f:
                 f.write(md)
-            print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
+            print('SUCCESSFULLY PARSED {}: \"{}\"'.format(bib_id, b["title"][:60] + "..."*(len(b['title'])>60)))
         # field may not exist for a reference
         except KeyError as e:
-            print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
+            print('WARNING Missing Expected Field {} from entry {}: \"{}\"'.format(e, bib_id, b["title"][:30] + "..."*(len(b['title'])>30)))
             continue
