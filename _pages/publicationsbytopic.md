@@ -4,7 +4,9 @@ title: "Publications"
 permalink: /publicationsbytopic/
 author_profile: true
 ---
-
+<p>
+* Indicates equal contribution.
+</p> 
 <a href="/publicationsbytopic/"><button type="button" class="btn" style="outline:none">By Topic </button></a> 
 <a href="/publicationsbyyear/"><button type="button" class="btn" style="outline:none"> By Year  </button></a> 
 

@@ -1,0 +1,26 @@
+---
+permalink: /
+title: "Interests"
+excerpt: "Interests"
+author_profile: true
+redirect_from: 
+  - /interests/
+  - /interests.html
+---
+
+My unifying interest is in language, originating in my passion for analytic philosophy, computational linguistics, literature, history, and writing in my undergraduate years at Gonzaga University. Currently my research focuses on text analysis, principally by improving methodology, generating insight as to the psychological aspects of language, and helping to generate insight into other psychological phenomena which are accessible _through_ language. 
+
+
+Here are my research interests, including my actual (published or soon to be published) work as well as my casual, someday-maybe-not interests.
+
+* In computer science, my work is in natural language processing (NLP) and applied machine learning: 
+    * Explainable NLP, specifically using statistical methods and explain linguistic and psychological phenomena from (large) language data
+    * Multi-modal representation learning of psychological phenomena (i.e., I read a lot of stuff about graphs, knowledge bases, and language data)
+    * Tools (i.e., software and open source code & data) and standards in text analysis for the wider scientific community to use.
+    * (Recently) helping to make NLP less English-centric
+* In psychology: 
+    * Moral psychology, particularly in gathering valid observational data on moral psychological phenomena in language
+    * Prejudice in language (i.e., hate speech)
+    * Individual differences in language use
+* Linguistics & Cognitive Science:
+    * Pragmatics, specifically Gricean theories of implicature (I am particularly a fan of Sperber & Wilson (1994)). 
