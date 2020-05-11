@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a computer science PhD student at the University of Southern California in the [https://dornsife.usc.edu/labs/cssl/](Computational Social Science Lab (CSSL)). I have the privilege of learning from my advisor, Dr. Morteza Dehghani. 
+I am a computer science PhD student at the University of Southern California in the [https://dornsife.usc.edu/labs/cssl/](Computational Social Science Lab (CSSL)). My advisor is Dr. Morteza Dehghani. 
 
 I contribute to various projects at the intersection of psychology, language, and computer science. My specific areas of research include:
 
-* Applications of natural language processing (NLP) to scientific questions in psychology
+* Applications of natural language processing (NLP) in psychology
 * Development and application of explainable methods in NLP
-* Development and curation of text corpora and other resources in psychology
+* Development of text corpora and other language resources for psychology
 
 
