@@ -5,16 +5,6 @@ permalink: /publicationsbytopic/
 author_profile: true
 ---
 
-<aside class="sidebar__right">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fa fa-file-text"></i> On This Page</h4></header>
-              <ul class="toc__menu">
-  <li><a href="#">Explainable NLP</a></li>                  
-  <li><a href="#">NLP Applications in Cognitive Linguistics</a></li>
-</ul>
-            </nav>
-          </aside>
-
 <a href="/publicationsbytopic/"><button type="button" class="btn" style="outline:none">By Topic </button></a> 
 <a href="/publicationsbyyear/"><button type="button" class="btn" style="outline:none"> By Year  </button></a> 
 
