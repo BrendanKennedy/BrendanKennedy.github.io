@@ -9,7 +9,6 @@ author_profile: true
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fa fa-file-text"></i> On This Page</h4></header>
               <ul class="toc__menu">
-  <li><a href="#">Preprints and Submitted</a></li>
   <li><a href="#">Explainable NLP</a></li>                  
   <li><a href="#">NLP Applications in Cognitive Linguistics</a></li>
 </ul>
