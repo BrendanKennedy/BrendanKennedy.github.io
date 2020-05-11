@@ -14,10 +14,15 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+
+<!-- Explainable NLP -->
+<h3  class="pubyear">NLP and Psychology</h3>
+{% bibliography -f nlppsych %}
+
 <!-- Explainable NLP -->
 <h3  class="pubyear">Explainable NLP</h3>
 {% bibliography -f explain %}
 
 <!-- Cognitive Linguistics --> 
-<h3  class="pubyear">NLP Applications in Cognitive Linguistics</h3>
+<h3  class="pubyear">Applications in Cognitive Linguistics</h3>
 {% bibliography -f cogling %}
