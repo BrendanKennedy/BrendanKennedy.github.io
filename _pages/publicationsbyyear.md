@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications"
-permalink: /publicationsbytopic/
+permalink: /publicationsbyyear/
 years: [2016,2018,2019,2020]
 author_profile: true
 ---
