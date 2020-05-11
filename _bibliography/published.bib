@@ -3,25 +3,96 @@ layout: default
 title: CV
 ---
 
-@inproceedings{kennedy2020contextualizing, author= {Kennedy, Brendan and Jin, Xisen and Mostafazadeh Davani, Aida and Dehghani, Morteza and Ren, Xiang}, title= {Contextualizing Hate Speech Classifiers with Post-hoc Explanation}, year= {2020}, booktitle= {Proceedings of the 2020 Annual Conference of the Association for Computational Linguistics (to appear)}}
+@inproceedings{kennedy2020contextualizing, 
+    author= {Kennedy*, Brendan and Jin*, Xisen and Mostafazadeh Davani, Aida and Dehghani, Morteza and Ren, Xiang}, 
+    title= {Contextualizing Hate Speech Classifiers with Post-hoc Explanation}, 
+    year= {2020}, 
+    abstract={Hate speech classifiers trained on imbalanced datasets struggle to determine if group identifiers like "gay" or "black" are used in offensive or prejudiced ways. Such biases manifest in false positives when these identifiers are present, due to models' inability to learn the contexts which constitute a hateful usage of identifiers. We extract post-hoc explanations from fine-tuned BERT classifiers to detect bias towards identity terms. Then, we propose a novel regularization technique based on these explanations that encourages models to learn from the context of group identifiers in addition to the identifiers themselves. Our approach improved over baselines in limiting false positives on out-of-domain data while maintaining or improving in-domain performance.},
+    booktitle= {Proceedings of the 2020 Annual Conference of the Association for Computational Linguistics}}
 ,
-@inproceedings{davani2019reporting, title= {Reporting the Unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes}, author= {Davani, Aida Mostafazadeh and Yeh, Leigh and Atari, Mohammad and Kennedy, Brendan and Portillo-Wightman, Gwenyth and Gonzalez, Elaine and Delong, Natalie and Bhatia, Rhea and Mirinjian, Arineh and Ren, Xiang and Dehghani, Morteza}, booktitle= {Proceedings of Empirical Methods in Natural Language Processing (EMNLP)}, year= {2019}}
+@inproceedings{davani2019reporting, 
+    title= {Reporting the Unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes}, 
+    abstract={Official reports of hate crimes in the US are under-reported relative to the actual number of such incidents. Further, despite statistical approximations, there are no official reports from a large number of US cities regarding incidents of hate. Here, we first demonstrate that event extraction and multi-instance learning, applied to a corpus of local news articles, can be used to predict instances of hate crime. We then use the trained model to detect incidents of hate in cities for which the FBI lacks statistics. Lastly, we train models on predicting homicide and kidnapping, compare the predictions to FBI reports, and establish that incidents of hate are indeed under-reported, compared to other types of crimes, in local press.},
+    author= {Davani, Aida Mostafazadeh and Yeh, Leigh and Atari, Mohammad and Kennedy, Brendan and Portillo-Wightman, Gwenyth and Gonzalez, Elaine and Delong, Natalie and Bhatia, Rhea and Mirinjian, Arineh and Ren, Xiang and Dehghani, Morteza}, 
+    booktitle= {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing (EMNLP-IJCAI)}, 
+    year= {2019}}
 ,
-@inproceedings{courtland2019modeling, title= {Modeling performance differences on cognitive tests using LSTMs and skip-thought vectors trained on reported media consumption.}, author= {Courtland, Maury and Davani, Aida and Reyes, Melissa and Yeh, Leigh and Leung, Jun and Kennedy, Brendan and Dehghani, Morteza and Zevin, Jason}, booktitle= {Proceedings of the Third Workshop on Natural Language Processing and Computational Social Science}, pages= {47--53}, year= {2019}}
+@inproceedings{courtland2019modeling, 
+    title= {Modeling performance differences on cognitive tests using LSTMs and skip-thought vectors trained on reported media consumption.}, 
+    abstract={Cognitive tests have traditionally resorted to standardizing testing materials in the name of equality and because of the onerous nature of creating test items. This approach ignores participants' diverse language experiences that potentially significantly affect testing outcomes. Here, we seek to explain our prior  finding of significant performance differences on two cognitive tests (reading span and SPiN) between clusters of participants based on their media consumption. Here, we model the language contained in these media sources using an LSTM trained on corpora of each cluster's media sources to predict target words. We also model semantic similarity of test items with each cluster's corpus using skip-thought vectors. We find robust, significant correlations between performance on the SPiN test and the LSTMs and skip-thought models we present here, but not the reading span test.},
+    author= {Courtland, Maury and Davani, Aida and Reyes, Melissa and Yeh, Leigh and Leung, Jun and Kennedy, Brendan and Dehghani, Morteza and Zevin, Jason}, 
+    booktitle= {Proceedings of the Third Workshop on Natural Language Processing and Computational Social Science (NLP+CSS)}, 
+    pages= {47--53}, 
+    year= {2019}}
 ,
-@inproceedings{courtland2019subtle, title= {Subtle differences in language experience moderate performance on language-based cognitive tests}, author= {Courtland, Maury and Davani, Aida and Reyes, Melissa and Yeh, Leigh and Leung, Jun and Kennedy, Brendan and Dehghani, Morteza and Zevin, Jason}, booktitle= {Proceedings of the 41st Annual Conference of the Cognitive Science Society, Austin, Texas. Cognitive Science Society}, year= {2019}}
+@inproceedings{courtland2019subtle, 
+    title= {Subtle differences in language experience moderate performance on language-based cognitive tests}, 
+    abstract={Cognitive tests used to measure individual differences are generally designed with equality in mind: the same "broadly acceptable" items are used for all participants. This has unknown consequences for equity, particularly when a single set of linguistic stimuli are used for a diverse population of language users. We hypothesized that differences in language variety would result in disparities in psycholinguistically meaningful properties of test items in two widely-used cognitive tasks, resulting in large differences in performance. As a proxy for individuals' language use, we administered a self-report survey of media consumption. We identified two substantial clusters from the survey data, roughly orthogonal to a priori groups recruited into the study (university students and members of the surrounding community). We found effects of both population and cluster membership. Comparing item-wise differences between the clusters' language models did not identify specific items driving performance differences.},
+    author= {Courtland, Maury and Davani, Aida and Reyes, Melissa and Yeh, Leigh and Leung, Jun and Kennedy, Brendan and Dehghani, Morteza and Zevin, Jason}, 
+    booktitle= {Proceedings of the 41st Annual Conference of the Cognitive Science Society, Austin, Texas. Cognitive Science Society}, 
+    year= {2019}}
 ,
 @inproceedings{mostafazadeh2020hatred,
   author = {Mostafazadeh Davani, Aida and Atari, Mohammad and Kennedy, Brendan and Havaldar, Shreya and Dehghani, Morteza},
   title = {Hatred is in the Eye of the Annotator: Hate Speech Classifiers Learn Human-Like Social Stereotypes (in press)},
-  booktitle = {31st Annual Conference of the Cognitive Science Society (CogSci)},
+  abstract = {Social stereotypes impact individuals' judgement about different social groups. One area where such stereotyping has a critical impact is in hate speech detection, in which human annotations of text are used to train machine learning models. Such models are likely to be biased in the same ways that humans are biased in their judgments of social groups. In this research, we investigate the effect of stereotypes of social groups on the performance of expert annotators in a large corpus of annotated hate speech. We also examine the effect of these stereotypes on unintended bias of hate speech classifiers. To this end, we show how language-encoded stereotypes, associated with social groups, lead to disagreements in identifying hate speech. Lastly, we analyze how inconsistencies in annotations propagate to a supervised classifier when human-generated labels are used to train a hate speech detection model.},
+  booktitle = {Proceedings of the 42nd Annual Conference of the Cognitive Science Society (CogSci)},
   year = {2020}
 }
-@article{hoover2020mftc,title = {Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment},journal = {Social Psychological and Personality Science},year = {2020},author = {Hoover, J. and Portillo-Wightman, G. and Yeh, L. and Havaldar, S. and Davani, A.M. and Lin, Y. and Kennedy, B. and Atari, M. and Kamel, Z. and Mendlen, M. and Moreno, G. and Park, C. and Chang, T.E. and Chin, J. and Leong, C. and Leung, J.Y. and Mirinjian, A. and Dehghani, M.}},
+@article{hoover2020mftc,
+    title = {Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment},
+    abstract = {Research has shown that accounting for moral sentiment in natural language can yield insight into a variety of on- and off-line phenomena such as message diffusion, protest dynamics, and social distancing. However, measuring moral sentiment in natural language is challenging, and the difficulty of this task is exacerbated by the limited availability of annotated data. To address this issue, we introduce the Moral Foundations Twitter Corpus, a collection of 35,108 tweets that have been curated from seven distinct domains of discourse and hand annotated by at least three trained annotators for 10 categories of moral sentiment. To facilitate investigations of annotator response dynamics, we also provide psychological and demographic metadata for each annotator. Finally, we report moral sentiment classification baselines for this corpus using a range of popular methodologies.},
+    journal = {Social Psychological and Personality Science},
+    year = {2020},
+    author = {Hoover, J. and Portillo-Wightman, G. and Yeh, L. and Havaldar, S. and Davani, A.M. and Lin, Y. and Kennedy, B. and Atari, M. and Kamel, Z. and Mendlen, M. and Moreno, G. and Park, C. and Chang, T.E. and Chin, J. and Leong, C. and Leung, J.Y. and Mirinjian, A. and Dehghani, M.}}
 ,
-@article{garten2019demographic,title = {Incorporating Demographic Embeddings Into Language Understanding},journal = {Cognitive Science},year = {2019},volume = {43},number = {1},author = {Garten, J. and Kennedy, B. and Hoover, J. and Sagae, K. and Dehghani, M.}},
-@article{garten2019measuring,title = {Measuring the importance of context when modeling language comprehension},journal = {Behavior Research Methods},year = {2019},volume = {51},number = {2},pages = {480-492},author = {Garten, J. and Kennedy, B. and Sagae, K. and Dehghani, M.}},
+@article{garten2019demographic,
+    title = {Incorporating Demographic Embeddings Into Language Understanding},
+    abstract = {Meaning depends on context. This applies in obvious cases like deictics or sarcasm as well as more subtle situations like framing or persuasion. One key aspect of this is the identity of the participants in an interaction. Our interpretation of an utterance shifts based on a variety of factors, including personal history, background knowledge, and our relationship to the source. While obviously an incomplete model of individual differences, demographic factors provide a useful starting point and allow us to capture some of this variance. However, the relevance of specific demographic factors varies between situations—where age might be the key factor in one context, ideology might dominate in another. To address this challenge, we introduce a method for combining demographics and context into situated demographic embeddings—mapping representations into a continuous geometric space appropriate for the given domain, showing the resulting representations to be functional and interpretable. We further demonstrate how to make use of related external data so as to apply this approach in low‐resource situations. Finally, we show how these representations can be incorporated into improve modeling of real‐world natural language understanding tasks, improving model performance and helping with issues of data sparsity.},
+    journal = {Cognitive Science},
+    year = {2019},
+    volume = {43},
+    number = {1},
+    author = {Garten, J. and Kennedy, B. and Hoover, J. and Sagae, K. and Dehghani, M.}, 
+    doi={10.1111/cogs.12701}
+}
 ,
-@article{hossain2018forecasting,title = {Forecasting violent events in the Middle East and North Africa using the Hidden Markov Model and regularized autoregressive models},journal = {Journal of Defense Modeling and Simulation},year = {2018},author = {Hossain, K.S.M.T. and Gao, S. and Kennedy, B. and Galstyan, A. and Natarajan, P.}},
-@article{Kennedy2016,title = {Applying Association Rule Mining to Semantic Data in the Lung Image Database Consortium},journal = {Proceedings - 15th IEEE International Conference on Data Mining Workshop, ICDMW 2015},year = {2016},pages = {463-471},author = {Kennedy, B. and Carrazza, M. and Rasin, A. and Furst, J. and Raicu, D.S.}},
-@article{carrazza2016,title = {Investigating the effects of majority voting on CAD systems: A LIDC case study},journal = {Progress in Biomedical Optics and Imaging - Proceedings of SPIE},year = {2016},volume = {9785},author = {Carrazza, M. and Kennedy, B. and Rasin, A. and Furst, J. and Raicu, D.}}
+@article{garten2019measuring,
+    title = {Measuring the Importance of Context when Modeling Language Comprehension},
+    abstract = {It is widely accepted that language requires context in order to function as communication between speakers and listeners. As listeners, we make use of background knowledge — about the speaker, about entities and concepts, about previous utterances — in order to infer the speaker’s intended meaning. But even if there is consensus that these sources of information are a necessary component of linguistic communication, it is another matter entirely to provide a thorough, quantitative accounting for context’s interaction with language. When does context matter? What kinds of context matter in which kinds of domains? The empirical investigation of these questions is inhibited by a number of factors: the challenge of quantifying language, the boundless combinations of domains and types of context to be measured, and the challenge of selecting and applying a given construct to natural language data. In response to these factors, we introduce and demonstrate a methodological framework for testing the importance of contextual information in inferring speaker intentions from text. We apply Long Short-term Memory (LSTM) networks, a standard for representing language in its natural, sequential state, and conduct a set of experiments for predicting the persuasive intentions of speakers in political debates using different combinations of text and background information about the speaker. We show, in our modeling and discussion, that the proposed framework is suitable for empirically evaluating the manner and magnitude of context’s relevance for any number of domains and constructs.},
+    journal = {Behavior Research Methods},
+    year = {2019},
+    volume = {51},
+    number = {2},
+    pages = {480-492},
+    author = {Garten*, J. and Kennedy*, B. and Sagae, K. and Dehghani, M.}
+}
+,
+@article{hossain2018forecasting,
+    title = {Forecasting violent events in the Middle East and North Africa using the Hidden Markov Model and regularized autoregressive models},
+    abstract = {This paper focuses on forecasting Military Action-type events by both state and non-state actors. Here we demonstrate
+that the dynamics of these types of events can be adequately described by a Hidden Markov Model (HMM) where the hidden states correspond to different operational regimes of an actor, and observations correspond to event frequency—and the HMM effectively predicts events with different lead times. We also demonstrate that one can enrich statistical time series-based methods that work only on historical data by exploiting predictive signals in real-time external data streams. We demonstrate the superior predictive power of the proposed models with evaluation of recent data capturing activities over two groups, ISIS and the Syrian Arab Military, two countries, Syria and Iraq, and two cities, Aleppo and Mosul. We also present an approach to converting predictions of the proposed models to real-world warnings.},
+    journal = {Journal of Defense Modeling and Simulation},
+    year = {2018},
+    author = {Hossain, K.S.M.T. and Gao, S. and Kennedy, B. and Galstyan, A. and Natarajan, P.}},
+@inproceedings{kennedy2015applying,
+    title = {Applying Association Rule Mining to Semantic Data in the Lung Image Database Consortium},
+    abstract = {The detection and diagnosis of lung cancer has been shown to dramatically increase the survival rate of lung cancer patients. Computer Aided Diagnosis (CAD) methods are being developed to help improve the ability of clinical radiologists to detect and diagnose malignant lung nodules. While many research studies use low-level image features to predict malignancy, only few CAD systems look into integrating semantic data (such as spiculation, subtlety and margin characteristics) in these systems. The availability of these semantic characteristics in the NIH/NCI Lung Nodule Database Consortium (LIDC) creates new opportunities to explore the relationships among these semantic characteristics in the context of lung nodule diagnostic interpretation. We propose the use of Association Rule Mining (ARM) to quantify these relationships and introduce new evaluation metrics that relate to the importance of individual characteristics rather than to a set of rules as a whole. Our preliminary results show that, although there is less evidence that malignancy can be predicted based on the other semantic characteristics, there is strong support and confidence for the existence of certain combinations of characteristics (including malignancy) that could be used to identify groups of nodules that are described in a similar fashion by radiologists.},
+    booktitle = {Proceedings - 15th IEEE International Conference on Data Mining Workshop, ICDMW 2015},
+    year = {2015},
+    pages = {463-471},
+    author = {Kennedy, B. and Carrazza, M. and Rasin, A. and Furst, J. and Raicu, D.S.}},
+@article{carrazza2016investigating,
+    title = {Investigating the effects of majority voting on CAD systems: A LIDC case study},
+    abstract = {Computer-Aided Diagnosis (CAD) systems can provide a second opinion for either identifying suspicious regions on a medical image or predicting the degree of malignancy for a detected suspicious region. To develop a predictive model, CAD systems are trained on low-level image features extracted from image data and the class labels acquired through radiologists’ interpretations or a gold standard (e.g., a biopsy). While the opinion of an expert radiologist is still an estimate of the answer, the ground truth may be extremely expensive to acquire. In such cases, CAD systems are trained on input data that contains multiple expert opinions per case with the expectation that the aggregate of labels will closely approximate the ground truth. Using multiple labels to solve this problem has its own challenges because of the inherent label uncertainty introduced by the variability in the radiologists’ interpretations. Most CAD systems use majority voting (e.g., average, mode) to handle label uncertainty. This paper investigates the effects that majority voting can have on a CAD system by classifying and analyzing different semantic characteristics supplied with the Lung Image Database Consortium (LIDC) dataset. Using a decision tree based iterative predictive model, we show that majority voting with labels that exhibit certain types of skewed distribution can have a significant negative impact on the performance of a CAD system; therefore, alternative strategies for label integration are required when handling multiple interpretations.},
+    volume = {9785},
+    booktitle = {Medical Imaging 2016: Computer-Aided Diagnosis},
+    editor = {Georgia D. Tourassi and Samuel G. Armato III},
+    organization = {International Society for Optics and Photonics},
+    publisher = {SPIE},
+    pages = {797 -- 804},
+    keywords = {Computer Aided Diagnosis, Majority Voting, Lung Image Data Consortium, Label Uncertainty},
+    year = {2016},
+    doi = {10.1117/12.2217328},
+    URL = {https://doi.org/10.1117/12.2217328}
+    }
