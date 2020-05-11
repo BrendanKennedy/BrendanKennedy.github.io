@@ -30,5 +30,3 @@ Here are my research interests, including my actual (published or soon to be pub
 * Linguistics & Cognitive Science:
     * Pragmatics, specifically Gricean theories of implicature (I am particularly a fan of Sperber & Wilson (1994)). 
     * 
-
-{% bibliography %}
