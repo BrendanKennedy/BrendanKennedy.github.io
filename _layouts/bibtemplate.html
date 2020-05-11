@@ -1,6 +1,6 @@
 ---
 ---
-{{reference}}
+{{reference| replace_first: 'Kennedy, B.', '<b>Kennedy, B.</b>'}}
     {% if entry.abstract %}
     <button class="btn btnId btnPub--abstract" id="b_{{key}}-abstract" style="outline:none;">Abstract</button>
     {% endif %}
@@ -22,5 +22,3 @@
     <div class="dropDownAbstract" id="{{key}}-abstract" style="display:none;">
     {{entry.abstract}}
     </div>  
-
-{{ reference | replace_first: 'Kennedy, B.', '<b>Kennedy, B.</b>' }}
