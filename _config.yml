@@ -283,6 +283,7 @@ whitelist:
 scholar:
     bibliography_template: bibtemplate
     repository: /publications
+    
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
