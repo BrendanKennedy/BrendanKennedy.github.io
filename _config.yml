@@ -178,7 +178,10 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  publicationsbyyear:
+    output: true
+    permalink: /:collection/:path/
+  publicationsbytopic:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -277,7 +280,9 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
+scholar:
+    bibliography_template: bibtemplate
+    repository: /publications
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
