@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a computer science PhD student at the University of Southern California in the [https://dornsife.usc.edu/labs/cssl/](Computational Social Science Lab (CSSL)). My advisor is Dr. Morteza Dehghani. 
+I am a computer science PhD student at the University of Southern California in the [Computational Social Science Lab (CSSL)](https://dornsife.usc.edu/labs/cssl/). My advisor is Dr. Morteza Dehghani. 
 
 I contribute to various projects at the intersection of psychology, language, and computer science. My specific areas of research include:
 
