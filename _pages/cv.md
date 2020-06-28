@@ -23,9 +23,13 @@ Research Interests
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<h3  class="pubyear">Preprints and In-Progress</h3>
+{% bibliography -f preprints %}
+
+{% for y in page.years %}
+  <h3  id="{{y}}" class="pubyear">{{y}}</h3>
+  {% bibliography -f published -q @*[year={{y}}]* %}
+{% endfor %}
 
 Work experience
 ======
