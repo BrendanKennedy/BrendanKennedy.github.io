@@ -3,11 +3,11 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+years: [2020,2019,2018,2016,2015]
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
 
 Education
 ======
@@ -18,8 +18,6 @@ Research Interests
 ======
 * Computer Science
   * Natural Language Processing
-  * f
-  * Supervisor: Professor Hub
 
 Publications
 ======
