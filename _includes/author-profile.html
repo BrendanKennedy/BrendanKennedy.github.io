@@ -117,7 +117,7 @@
       {% endif %}
       {% if author.cv %}
       "{{ author.avatar | prepend: "/images/" | prepend: base_path }}"
-      <li><a href="{{ author.cv | prepend: "/files/" | prepend: base_path }}" download><img src="{{ author.cv | prepend: "/files/" | prepend: base_path }}">Curriculum Vitae</a></li>
+      <li><a href="{{ author.cv | prepend: "/files/" | prepend: base_path }}" download="CurriculumVitae.pdf">Curriculum Vitae</a></li>
       {% endif %}
 </a>
       {% if author.wikipedia %}
