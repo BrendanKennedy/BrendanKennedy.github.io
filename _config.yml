@@ -47,7 +47,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : # blank (default) uses feed.rbloggers.xml
 
 # SEO Related
 google_site_verification :
@@ -271,7 +271,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll_orcid
   - jekyll-scholar
-plugins: ['jekyll/scholar']
 
 # mimic GitHub Pages with --safe
 whitelist:
