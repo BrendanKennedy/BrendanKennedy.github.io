@@ -3,11 +3,11 @@ main:
   - title: "Publications"
     url: /publicationsbyyear/
 
-#  - title: "Talks"
-#    url: /talks/    
+  - title: "Teaching"
+    url: /talks/
 
-  - title: "Projects"
-    url: /projects/    
+  #- title: "Projects"
+    #url: /projects/
         
   - title: "Blog Posts"
     url: /year-archive/
