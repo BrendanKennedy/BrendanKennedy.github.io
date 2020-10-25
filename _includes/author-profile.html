@@ -116,7 +116,8 @@
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
       {% if author.cv %}
-      <li><a href="{{ author.cv | prepend: "/images/" | prepend: base_path }}" download="CurriculumVitae.pdf">Curriculum Vitae</a></li>
+      <li><a href="{{ author.cv | prepend: "/images/" | prepend: base_path }}" download="CurriculumVitae.pdf"><i class="material-icons">attachment</i>
+Curriculum Vitae</a></li>
       {% endif %}
 </a>
       {% if author.wikipedia %}
