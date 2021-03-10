@@ -16,11 +16,11 @@ author_profile: true
 
 
 <!-- Explainable NLP -->
-<h3  class="pubyear">NLP and Psychology</h3>
+<h3  class="pubyear">NLP: Applications in Psychology</h3>
 {% bibliography -f nlppsych %}
 
 <!-- Explainable NLP -->
-<h3  class="pubyear">Explainable NLP</h3>
+<h3  class="pubyear">NLP: Explainability and Bias & Fairness</h3>
 {% bibliography -f explain %}
 
 <!-- Cognitive Linguistics --> 
